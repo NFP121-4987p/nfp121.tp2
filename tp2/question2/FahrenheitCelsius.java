@@ -21,7 +21,8 @@ public class FahrenheitCelsius{
                float celsius = fahrenheitEnCelsius(fahrenheit);
                System.out.println(fahrenheit + "\u00B0F -> " + celsius + "\u00B0C"); 
             }catch(NumberFormatException nfe){
-               System.out.println("error : " + nfe.getMessage());  
+               System.out.println("error : " + nfe.getMessage()); 
+            }     
        }
        
      }
